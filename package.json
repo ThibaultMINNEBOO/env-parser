@@ -1,10 +1,11 @@
 {
   "name": "@thibaultminneboo/env-parser",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "A simple env wrapper in NodeJS",
   "main": "dist/main.js",
   "scripts": {
-    "build": "npx tsc"
+    "build": "npx tsc",
+    "test": "vitest"
   },
   "keywords": [
     "env",
@@ -26,6 +27,7 @@
   "devDependencies": {
     "@types/node": "^22.7.5",
     "ts-node": "^10.9.2",
-    "typescript": "^5.6.3"
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.3"
   }
 }
