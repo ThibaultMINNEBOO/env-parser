@@ -1,0 +1,31 @@
+{
+  "name": "@thibaultminneboo/env-parser",
+  "version": "0.0.3",
+  "description": "A simple env wrapper in NodeJS",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "keywords": [
+    "env",
+    "parser",
+    "nodejs",
+    "backend",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThibaultMINNEBOO/env-parser.git"
+  },
+  "author": "Thibault MINNEBOO",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ThibaultMINNEBOO/env-parser/issues"
+  },
+  "homepage": "https://github.com/ThibaultMINNEBOO/env-parser#readme",
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
